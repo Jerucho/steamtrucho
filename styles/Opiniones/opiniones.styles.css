@@ -1,0 +1,42 @@
+.opiniones {
+  background-color: var(--negro);
+  height: 70vh;
+  width: 100%;
+}
+
+.tarjetas-opiniones {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 100px;
+}
+
+.tarjeta-opinion {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  width: 600px;
+  font-size: 1.4rem;
+  padding: 20px;
+  background-color: var(--blanco);
+}
+
+.opinion-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+.opinion-img {
+  height: 50%;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+#gtav {
+  background-image: url("https://oyster.ignimgs.com/mediawiki/apis.ign.com/grand-theft-auto-5/1/1d/Grand-theft-auto-v-banner.png");
+  /* height: 100%;
+  width: 100%; */
+}

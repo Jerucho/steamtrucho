@@ -1,6 +1,7 @@
 @import url("./Navbar/navbar.styles.css");
 @import url("./Cabecera/cabecera.styles.css");
-
+@import url("./Top3/top.styles.css");
+@import url("./Opiniones/opiniones.styles.css");
 /* FUENTES */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 * {
@@ -10,10 +11,24 @@
 }
 body {
   font-family: "Inter";
+  padding-top: 8vh;
 }
 :root {
   --negro: #222831;
+  --celeste-ofertas: #295ae1;
   --celeste: #76abae;
   --gris: #31363f;
   --blanco: #d9d9d9;
 }
+.titulo-seccion {
+  font-size: 3rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--negro);
+  text-align: center;
+  margin-top: 100px;
+}
+/* .web-body {
+  padding: 0 80px;
+} */
