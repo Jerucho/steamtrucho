@@ -1,25 +1,31 @@
 .opiniones {
   background-color: var(--negro);
-  height: 70vh;
+  height: auto;
   width: 100%;
+  padding: 30px 0;
 }
 
 .tarjetas-opiniones {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   width: 100%;
-  gap: 100px;
+  gap: 30px;
+  margin-top: 50px;
 }
 
 .tarjeta-opinion {
   display: flex;
   flex-direction: column;
   height: 500px;
-  width: 600px;
+  width: 400px;
   font-size: 1.4rem;
   padding: 20px;
   background-color: var(--blanco);
+  border-radius: 15px;
+  transition: 0.2s linear all;
+  transform: scale(0.9);
 }
 
 .opinion-info {
@@ -31,12 +37,46 @@
 .opinion-img {
   height: 50%;
   width: 100%;
+  border-radius: 15px;
   background-position: center;
   background-size: cover;
 }
 
+.tarjeta-opinion:hover {
+  transform: scale(1);
+}
+
+.opinion-txt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 50%;
+}
+.opinion-texto {
+  font-size: 1rem;
+  color: var(--gris);
+  font-weight: 300;
+}
+#opinion-titulo {
+  font-size: 3rem;
+  text-align: center;
+  color: var(--blanco);
+}
+
 #gtav {
   background-image: url("https://oyster.ignimgs.com/mediawiki/apis.ign.com/grand-theft-auto-5/1/1d/Grand-theft-auto-v-banner.png");
-  /* height: 100%;
-  width: 100%; */
+}
+
+#concord {
+  background-image: url("https://cdn1.epicgames.com/offer/61e4bb2351e2475b8d841507f8bfdd9b/EGS_Concord_FirewalkStudios_S1_2560x1440-33a70c32c0ebb17df1cbcad33d78f8e0");
+}
+
+#tropico {
+  background-image: url("https://cdn.cloudflare.steamstatic.com/steam/apps/492720/header.jpg?t=1628190007");
+}
+
+#aviones {
+  background: url("https://developer.microsoft.com/content/dam/microsoftgamedev/blogs/images/legacy/FlightSim.png");
+  background-position: center;
+  background-size: cover;
 }
