@@ -9,8 +9,8 @@
   flex-direction: column;
   color: var(--blanco);
   padding-left: 10%;
+  transition: 0.3s linear all;
 }
-
 
 /*
   https://cdn2.steamgriddb.com/hero/c73f4d8f3e0c84920eef1464c4c73cb8.jpg

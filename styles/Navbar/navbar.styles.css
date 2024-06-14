@@ -15,10 +15,15 @@
 .navbar-menu {
   display: flex;
   list-style: none;
-  gap: 3%;
+  gap: 10%;
 }
 
 .navbar-a {
   text-decoration: none;
   color: var(--blanco);
+  transition: 0.2s linear all;
+}
+
+.navbar-a:hover {
+  color: var(--celeste);
 }

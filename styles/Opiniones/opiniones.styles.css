@@ -56,6 +56,7 @@
   font-size: 1rem;
   color: var(--gris);
   font-weight: 300;
+  height: 40%;
 }
 #opinion-titulo {
   font-size: 3rem;
