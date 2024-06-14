@@ -56,7 +56,7 @@
   background-color: var(--celeste-ofertas);
   padding: 5px 10px;
   color: var(--blanco);
-  border-radius: 15%;
+  border-radius: 10%;
 }
 
 .tarjeta-juego h3 {
