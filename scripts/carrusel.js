@@ -1,4 +1,4 @@
-const bannerImgs = [
+const bannerImagenes = [
   "../../images/Banner.png",
 
   "https://cdn2.steamgriddb.com/hero/c73f4d8f3e0c84920eef1464c4c73cb8.jpg",
@@ -8,13 +8,14 @@ const bannerImgs = [
 
 document.addEventListener("DOMContentLoaded", () => {
   const banner = document.getElementById("banner");
-  const bannerText = document.getElementById("bannerText");
-  let currentIndex = 0;
+  let indexActual = 0;
 
-  function changeBackground() {
-    banner.style.backgroundImage = `url('${bannerImgs[currentIndex]}')`;
-    currentIndex = (currentIndex + 1) % bannerImgs.length;
+  function cambiarBanner() {
+    banner.style.backgroundImage = `url('${bannerImagenes[indexActual]}')`;
+
+    // Incrementar el indexActual para cambiar el fondo
+    indexActual = (indexActual + 1) % bannerImagenes.length;
   }
 
-  setInterval(changeBackground, 3000);
+  setInterval(cambiarBanner, 3000);
 });
