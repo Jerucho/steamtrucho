@@ -16,9 +16,11 @@ body {
 }
 :root {
   --negro: #222831;
+  --negro-claro: #22283199;
   --celeste-ofertas: #295ae1;
   --celeste: #76abae;
   --gris: #31363f;
+  --gris-claro: #4b4b4b;
   --blanco: #d9d9d9;
 }
 .titulo-seccion {
